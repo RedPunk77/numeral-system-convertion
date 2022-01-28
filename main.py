@@ -1,5 +1,5 @@
-print("convert numeral to required num.system OR convert numeral to decimal num.system:")
-first_or_second = input("choose - write '1' to choose 1st and '2' to choose 2nd accordingly: ")
+print("convert numeral to required num.system OR convert numeral to decimal num.system:")                                      #Выберите 1, чтобы перевести число в 10 сс в выбранную, или 3, чтобы перевести число из выбранной сс в 10-ную
+first_or_second = input("choose - write '1' to choose 1st and '2' to choose 2nd accordingly: ")                             
 if int(first_or_second) == 1:
     def convert_to_another_num_system(n, m):
         s = '0123456789ABCDEFGHKLMNOPQRSTVWXYZ'
