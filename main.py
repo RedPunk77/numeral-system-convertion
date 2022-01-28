@@ -18,8 +18,8 @@ if int(first_or_second) == 1:
                 n = this_alphabet[n]
             A.append(n)
         A.reverse()
-        print(tmp1, "(10) = ", *A, "(", m, ")", sep='')                                 //Code changes are continued! ;
-                                                                                        //Conact me: makarkosenko77@gmail.com or write on Telegram - https://t.me/kosenko_makaron
+        print(tmp1, "(10) = ", *A, "(", m, ")", sep='')                                 #Code changes are continued! ;
+                                                                                        #Conact me: makarkosenko77@gmail.com or write on Telegram - https://t.me/kosenko_makaron
 
     n = int(input("numeral in decimal numeral system: "))
     k = int(input("this numeral in required numeral system: "))
